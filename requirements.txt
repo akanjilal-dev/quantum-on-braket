@@ -1,0 +1,5 @@
+# Core: the Braket SDK ships a free local simulator -- no AWS account, no keys.
+amazon-braket-sdk>=1.80
+pytest>=8.0
+# Running on real hardware (AwsDevice) additionally needs AWS credentials and
+# the boto3 stack, which amazon-braket-sdk pulls in. No extra install required.
